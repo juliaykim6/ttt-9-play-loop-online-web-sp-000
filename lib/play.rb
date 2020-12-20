@@ -38,7 +38,7 @@ end
 # Define your play method below
 def play(board)
   move = 0
-  while move(board, index, current_player = "X")<= 8
+  while move <= 8
     turn(board)
     move += 1
   end
